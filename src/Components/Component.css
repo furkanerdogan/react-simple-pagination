@@ -1,0 +1,53 @@
+
+.Active{
+    background-color: blue;
+  }
+  /*post.js*/
+
+  table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+tr{
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+td{
+  padding: 15px;
+
+}
+li{
+  list-style-type: none;
+
+}
+/*pagination.js*/
+
+
+.pagination-container ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+   margin: 0px;
+  padding: 0px;
+}
+.pagination-container a{
+  cursor: pointer;
+  text-align: center;
+  font-size: 19px;         
+  text-decoration: none;  
+  padding: 8px 16px;
+  float: left;
+  border-radius: 5px;
+  margin-left: 5px;            
+}
+
+@media only screen and (max-width: 600px) {
+  .pagination-container ul a,li{  
+    font-size: 13px;    
+    padding: 4px 5px;
+    margin-left: 2px;                     
+  }
+}
